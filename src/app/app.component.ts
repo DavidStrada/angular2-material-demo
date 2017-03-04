@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Ng Cli App!';
+  highlight = 'highlight directive';
+  checked = false;
+  indeterminate = false;
+  align = 'start';
+  disabled = false;
 }
